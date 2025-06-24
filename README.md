@@ -27,6 +27,15 @@ This Jupyter Notebook analyzes **daily glucose distributions** using clustering 
 
 ---
 
+## 📚 Methodology
+
+This notebook uses the concept of **glucodensities**—day-level glucose distribution representations based on kernel density estimation (KDE). This approach captures intra-day glucose variability in a nonparametric way, preserving subtle features such as multimodality or skewness.
+
+The concept is inspired by:
+
+> Müller I, Borgmann S, Wagner R, et al. *Glucodensities: a new approach to visualizing and analyzing continuous glucose monitoring data*. Diabetologia. 2023.  
+> [https://doi.org/10.1007/s00125-023-05990-y](https://doi.org/10.1007/s00125-023-05990-y)
+
 ## 🛠️ Requirements
 
 - Python 3.x  
